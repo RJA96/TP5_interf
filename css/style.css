@@ -1,0 +1,9 @@
+
+/* cambiar el color de fondo a la barra */
+nav.navbar {
+    background-color: #B23030 !important;
+}
+
+.claseee a{
+    color: white !important;
+}
