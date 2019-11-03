@@ -3,7 +3,19 @@
 nav.navbar {
     background-color: #B23030 !important;
 }
-
-.claseee a{
+.dropdown-menu{
+    background-color: #B23030 !important;
+}
+.dropdown-item{
+    background-color: #B23035 !important;
+}
+.texto_blanco a{
     color: white !important;
 }
+.icono{
+    width: 60px;
+    height: 60px;
+}
+.navbar-default .navbar-nav>.open>a.dropdown-toggle{
+    background-color: #f4511e !important;
+  }
