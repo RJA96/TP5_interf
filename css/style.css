@@ -16,6 +16,21 @@ nav.navbar {
     width: 60px;
     height: 60px;
 }
-.navbar-default .navbar-nav>.open>a.dropdown-toggle{
-    background-color: #f4511e !important;
-  }
+.iconobusqueda{
+    width: 35px;
+    height: 35px;
+}
+p{
+    color: white;
+    font-size: 160%;
+}
+h2{
+    color: white;
+}
+body{
+    background: black;
+}
+.poster{
+    width: 80%;
+    height: 80%;
+}
