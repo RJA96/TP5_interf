@@ -1,13 +1,16 @@
-
+:root{
+    --primaryColour:#B23030;
+    --primaryTextColour:white;
+}
 /* cambiar el color de fondo a la barra */
 nav.navbar {
-    background-color: #B23030 !important;
+    background-color: var(--primaryColour) !important;
 }
 .dropdown-menu{
-    background-color: #B23030 !important;
+    background-color: var(--primaryColour) !important;
 }
 .dropdown-item{
-    background-color: #B23035 !important;
+    background-color: var(--primaryColour) !important;
 }
 .texto_blanco a{
     color: white !important;
@@ -24,6 +27,10 @@ p{
     color: white;
     font-size: 160%;
 }
+.puntaje{
+    color: white;
+    font-size: 500% !important;
+}
 h2{
     color: white;
 }
@@ -33,4 +40,26 @@ body{
 .poster{
     width: 80%;
     height: 80%;
+}
+
+label{
+    color: var(--primaryColour);
+}
+.card-title{
+    margin: 0;
+    padding: 0;
+}
+.card-body{
+    margin: 0;
+    padding: 6%;
+    border-bottom-left-radius:5%;
+    border-bottom-right-radius: 5%;
+    background: var(--primaryColour);
+}
+.card{
+    border-bottom-left-radius:5%;
+    border-bottom-right-radius: 5%;
+    color: var(--primaryTextColour);
+    border:0;
+    width: 13rem;
 }
