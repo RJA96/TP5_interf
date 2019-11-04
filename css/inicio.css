@@ -1,7 +1,4 @@
-:root{
-    --primaryColour: rgba(178, 48, 48, 1);
-    --primaryColorText: white;
-}
+
 
 body{
     color: white;
@@ -19,7 +16,7 @@ body{
     -webkit-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
     border-radius: 3%;
     background-color: var(--primaryColour);
-    color: var(--primaryColorText);
+    color: var(--primaryColourText);
   }
 
   .planes{

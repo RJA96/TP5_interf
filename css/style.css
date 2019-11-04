@@ -1,6 +1,6 @@
 :root{
     --primaryColour:#B23030;
-    --primaryTextColour:white;
+    --primaryColourText:white;
 }
 /* cambiar el color de fondo a la barra */
 nav.navbar {
