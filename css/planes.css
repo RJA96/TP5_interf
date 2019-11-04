@@ -1,0 +1,40 @@
+:root{
+    --primaryColour: rgba(178, 48, 48, 1);
+    --primaryColorText: white;
+}
+
+
+
+.plan-card {
+    display: inline-block;
+    text-align: center;
+    font-size: 0.9em;
+    /* Dimensiones */
+    /* width: 25%; */
+    margin: 0.5%;
+    padding: 0.5%;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 3%;
+    background-color: var(--primaryColour);
+    color: var(--primaryColorText);
+  }
+
+  .planes{
+      width: 100%;
+      text-align: center;
+  }
+
+  .border-plan{
+      border-top: 1px solid white;
+  }
+
+  p{
+      margin-bottom: 1px;
+  }
+
+  .equis{
+      width: 37px;
+      height: 48px;
+  }
+
+  

@@ -1,0 +1,65 @@
+body{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.8)
+      ),
+    url(https://vignette.wikia.nocookie.net/nwnetflix/images/5/50/Wiki-background/revision/latest?cb=20190411162238);
+}
+
+.icono{
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 60px;
+    height: 60px;
+}
+
+.fondoSesion, .fondoRegistro, .fondoPago, .fondoPlanes{
+    background-color: rgba(0, 0, 0, 0.8);
+    
+}
+
+.fondoSesion{
+    height: 428px;
+}
+
+.fondoRegistro{
+    height: 538px;
+}
+
+.fondoPago{
+    height: 678px;
+}
+
+.fondoPlanes{
+    padding: 2%;
+}
+
+.titulo{
+    color: white;
+    font-weight: bold;
+}
+
+.label{
+    font-size: 20px;
+    
+    color: white;
+}
+
+.btn{
+    width: 100%;
+}
+
+.actual{
+    color: white;
+}
+
+.imagenPagos img{
+    width: 100%;
+    height: 50px;
+}
+
+.imagenPagos{
+    margin-left: 20%;
+    width: 60%;
+    background-color: white;
+}
