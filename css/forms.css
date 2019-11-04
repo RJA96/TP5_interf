@@ -63,3 +63,36 @@ body{
     width: 60%;
     background-color: white;
 }
+
+.membresiaTitulo{
+    color: #B4B4B4;
+    font-size: 19px;
+}
+
+.cuenta{
+    color: white;
+}
+
+.cuenta span{
+    color: #A4A4A4;
+}
+
+.datos{
+    border-bottom: 1px solid white;
+}
+
+.cuenta a{
+    color: white;
+    text-decoration: none;
+}
+
+.cuenta a:hover{
+    color: #5B5B5B;
+}
+
+.cambiarDatos{
+    border-bottom: 1px solid #6B6B6B;
+    padding-bottom: 3%;
+}
+
+

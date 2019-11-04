@@ -12,5 +12,28 @@
   .carousel-title {
     font-size: 14px;
     margin-top: 20px; } }
-
+    .card-title{
+      margin: 0;
+      padding: 0;
+  }
+  .card-body{
+      margin: 0;
+      padding: 6%;
+      border-bottom-left-radius:5%;
+      border-bottom-right-radius: 5%;
+      background: var(--primaryColour);
+  }
+  .card{
+      border-bottom-left-radius:5%;
+      border-bottom-right-radius: 5%;
+      color: var(--primaryTextColour);
+      border:0;
+  }
+  .card-img-top{
+      height: 350px;
+  }
+  .carousel-control-prev-icon, .carousel-control-next-icon{
+      height: 100px;
+      width: 100px;
+  }
 /*# sourceMappingURL=main.css.map */

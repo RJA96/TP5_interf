@@ -8,18 +8,22 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
-
+  <link rel="stylesheet" href="css/ficha.css">
   <title>TP5</title>
 </head>
 
 <body>
-  <nav class="font-weight-bold navbar navbar-expand-lg navbar-light bg-light menunav texto_blanco">
-    <img class="icono mr-5" src="img/herflix_modif.png" alt="">
+  <nav class="font-weight-bold navbar  navbar-expand-lg navbar-light bg-light menunav texto_blanco">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
+      
     </button>
-
+        <img class="d-none icono mr-5 d-sm-none d-lg-block" src="img/herflix_modif.png" alt="">
+        <ul class="form-inline my-2 my-lg-0  d-sm-block d-md-none">
+            <img class="iconobusqueda" src="img/busqueda.png" alt="">
+            <img class="iconobusqueda ml-4" src="img/notificaciones.png" alt="">
+          </ul>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
@@ -54,7 +58,7 @@
         </li>
 
       </ul>
-      <ul class="form-inline my-2 my-lg-0">
+      <ul class="form-inline my-2 my-lg-0 d-none d-sm-none d-lg-block">
         <img class="iconobusqueda" src="img/busqueda.png" alt="">
         <img class="iconobusqueda ml-4" src="img/notificaciones.png" alt="">
         <img class="iconobusqueda ml-4" src="img/cuenta2.png" alt="">

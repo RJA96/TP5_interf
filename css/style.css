@@ -34,38 +34,15 @@ p{
 h2{
     color: white;
 }
-body{
-    background: black;
-}
+
 .poster{
     width: 80%;
     height: 80%;
 }
-
+.navbar-toggler, .navbar-toggler-icon{
+    text-align:left !important;
+}
 label{
     color: var(--primaryColour);
 }
-.card-title{
-    margin: 0;
-    padding: 0;
-}
-.card-body{
-    margin: 0;
-    padding: 6%;
-    border-bottom-left-radius:5%;
-    border-bottom-right-radius: 5%;
-    background: var(--primaryColour);
-}
-.card{
-    border-bottom-left-radius:5%;
-    border-bottom-right-radius: 5%;
-    color: var(--primaryTextColour);
-    border:0;
-}
-.card-img-top{
-    height: 350px;
-}
-.carousel-control-prev-icon, .carousel-control-next-icon{
-    height: 100px;
-    width: 100px;
-}
+
