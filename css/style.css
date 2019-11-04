@@ -61,5 +61,11 @@ label{
     border-bottom-right-radius: 5%;
     color: var(--primaryTextColour);
     border:0;
-    width: 13rem;
+}
+.card-img-top{
+    height: 350px;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    height: 100px;
+    width: 100px;
 }
