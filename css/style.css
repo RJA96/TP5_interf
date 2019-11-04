@@ -45,4 +45,15 @@ h2{
 label{
     color: var(--primaryColour);
 }
-
+@media only screen and (max-width: 767px) {
+    #slide-navbar-collapse {
+      position: fixed;
+      top: 0;
+      left: 15px;
+      z-index: 99;
+      width: 280px;
+      height: 100%;
+      background-color: #ddd;
+      overflow: auto;
+    }
+}
