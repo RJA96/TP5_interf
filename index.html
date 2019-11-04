@@ -5,9 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+        integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+    <!-- Additional CSS -->
+    <link rel="stylesheet" href="css/carrousel.css">
+
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+
     <link rel="stylesheet" href="css/inicio.css">
+
     <title>Inicio</title>
 </head>
 
@@ -16,7 +32,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4 offset-lg-8 mt-2 col-8 offset-4">
-                <button type="button" class="btn btn-danger font-weight-bold">Iniciar sessión</button>
+                <button type="button" class="btn btn-danger font-weight-bold">Iniciar sesión</button>
                 <button type="button" class="btn btn-danger font-weight-bold">Registrarse</button>
             </div>
         </div>
@@ -24,16 +40,148 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 col-12">
+            <div class="col-lg-12 col-12 mt-5">
                 <h1 class="text-center mt-5">Peliculas, Series y mucho mas</h1>
-                <p class="text-center mt-3">Mira cientos de peliculas y series con planes desde $99,99 por mes</p>
+                <h2 class="text-center mt-3 mb-5">Mira cientos de peliculas y series con planes desde $99,99 por mes</h2>
             </div>
         </div>
     </div>
 
     <div class="container">
         <div class="row">
-            <div class="planes">
+            <div class="col-lg-12 col-12 mt-5">
+                <h1>Ultimos estrenos</h1>
+            </div>
+            <!-- End of col-12 -->
+
+            <!-- 
+                =================================
+                This Code Block is For PC Edition
+                ================================= 
+            -->
+
+            <div id="carouselExample" class="carousel slide" data-ride="carousel">
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+
+                        <div class="row">
+                            <div class="col-xs-1 offset-xs-3 col-lg-3">
+                                <div class="card">
+                                    <img src="img/johnw.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">John Wick</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-none d-sm-none d-md-block col-lg-3">
+                                <div class="card">
+                                    <img src="img/it.jpeg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">It</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-none d-sm-none d-md-block col-lg-3">
+                                <div class="card">
+                                    <img src="img/poster-joker.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Joker</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-none d-sm-none d-md-block col-lg-3">
+                                <div class="card">
+                                    <img src="img/poster-peaky.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Peaky Blinders</h5>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!-- Carousel Item 1 -->
+
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-3 col-xs-8 offset-xs-2">
+                                <div class="card">
+                                    <img src="img/poster-wanwom.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Wander Woman</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-none d-sm-none d-md-block col-lg-3">
+                                <div class="card">
+                                    <img src="img/thebiggang.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">The Big Bang Theory </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-none d-sm-none d-md-block col-lg-3">
+                                <div class="card">
+                                    <img src="img/deadpool2.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Deadpool2</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-none d-sm-none d-md-block col-lg-3">
+                                <div class="card">
+                                    <img src="img/americanhorror.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">American Horror Story</h5>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!-- Carousel Control Prev -->
+                    <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+                        <span class="sr-only">Previous</span>
+
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+                        <span class="sr-only">Next</span>
+
+                    </a>
+                </div>
+                <!-- Carousel Control Next -->
+
+            </div>
+            <!-- End of Carousel Example -->
+
+            <!-- 
+                =================================
+                /End of PC Edition 
+                =================================
+            -->
+
+
+            <!--              -->
+
+        </div>
+        <!-- End of Row -->
+
+    </div>
+    <!-- End of Container -->
+
+    <div class="container">
+        <div class="row">
+            <div class="planes mt-5">
                 <h2 class="font-weight-bold">Planes</h2>
                 <section class="plan-card col-lg-2 col-4">
                     <h2 class="font-weight-bold">Bronce</h2>
@@ -99,9 +247,11 @@
                         <div id="collapseOne" class="collapse collapseblack text-center" aria-labelledby="headingOne"
                             data-parent="#accordionExample">
                             <div class="card-body">
-                                Herflix es un servicio de streaming que ofrece una gran variedad de programas, películas
+                                Herflix es un servicio de streaming que ofrece una gran variedad de programas,
+                                películas
                                 y series.
-                                Todo lo que quieras ver, sin límites ni comerciales, a un costo muy accesible. Siempre
+                                Todo lo que quieras ver, sin límites ni comerciales, a un costo muy accesible.
+                                Siempre
                                 hay algo nuevo por descubrir.
                             </div>
                         </div>
@@ -119,9 +269,9 @@
                         <div id="collapseTwo" class="collapse text-center" aria-labelledby="headingTwo"
                             data-parent="#accordionExample">
                             <div class="card-body">
-                                    Ve toda tus series favoritas en cualquier dispositivo, todo por una 
-                                    tarifa plana mensual muy accesible. Planes desde $ 99,99 al mes. 
-                                    Sin costos adicionales ni contratos.
+                                Ve toda tus series favoritas en cualquier dispositivo, todo por una
+                                tarifa plana mensual muy accesible. Planes desde $ 99,99 al mes.
+                                Sin costos adicionales ni contratos.
                             </div>
                         </div>
                     </div>
@@ -138,8 +288,10 @@
                         <div id="collapseThree" class="collapse text-center" aria-labelledby="headingThree"
                             data-parent="#accordionExample">
                             <div class="card-body">
-                                    Herflix es flexible. Sin contratos molestos ni compromisos. Cancela la membresía online con solo dos clics. No hay cargos por cancelación. Empieza y termina cuando quieras.
-                                </div>
+                                Herflix es flexible. Sin contratos molestos ni compromisos. Cancela la membresía
+                                online con solo dos clics. No hay cargos por cancelación. Empieza y termina cuando
+                                quieras.
+                            </div>
                         </div>
                     </div>
                     <div class="card collapseblack">
@@ -155,35 +307,38 @@
                         <div id="collapseFour" class="collapse text-center" aria-labelledby="headingThree"
                             data-parent="#accordionExample">
                             <div class="card-body">
-                                    Herflix es un servicio que para contratarlo debe registrarse en 
-                                    nuestro sitio, seleccionar el plan y luego seleccionar 
-                                    el metodo de pago.
+                                Herflix es un servicio que para contratarlo debe registrarse en
+                                nuestro sitio, seleccionar el plan y luego seleccionar
+                                el metodo de pago.
                             </div>
                         </div>
                     </div>
                     <div class="card collapseblack">
-                            <div class="card-header text-center" id="headingFive">
-                                <h2 class="mb-0">
-                                    <button class="btn collapseblack collapsed text-center" type="button"
-                                        data-toggle="collapse" data-target="#collapseFive" aria-expanded="false"
-                                        aria-controls="collapseThree">
-                                        ¿Qué puedo ver en Herflix?
-                                    </button>
-                                </h2>
-                            </div>
-                            <div id="collapseFive" class="collapse text-center" aria-labelledby="headingFive"
-                                data-parent="#accordionExample">
-                                <div class="card-body">
-                                        Herflix tiene un amplio catálogo de programas, películas, 
-                                        documentales, animes y mucho mas. Todo lo que 
-                                        quieras ver, cuando quieras.
-                                </div>
+                        <div class="card-header text-center" id="headingFive">
+                            <h2 class="mb-0">
+                                <button class="btn collapseblack collapsed text-center" type="button"
+                                    data-toggle="collapse" data-target="#collapseFive" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    ¿Qué puedo ver en Herflix?
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseFive" class="collapse text-center" aria-labelledby="headingFive"
+                            data-parent="#accordionExample">
+                            <div class="card-body">
+                                Herflix tiene un amplio catálogo de programas, películas,
+                                documentales, animes y mucho mas. Todo lo que
+                                quieras ver, cuando quieras.
                             </div>
                         </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- Additional Javascript -->
+    <script src="js/main.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
