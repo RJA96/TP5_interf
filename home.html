@@ -11,65 +11,52 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/carrousel.css">
   <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/sidenav.css">
   
      
   <title>TP5</title>
 </head>
 
 <body>
-  <nav class="font-weight-bold navbar  navbar-expand-lg navbar-light bg-light menunav texto_blanco">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-      
-    </button>
-        <img class="d-none icono mr-5 d-sm-none d-lg-block" src="img/herflix_modif.png" alt="">
-        <ul class="form-inline my-2 my-lg-0  d-sm-block d-md-none">
-            <img class="iconobusqueda" src="img/busqueda.png" alt="">
-            <img class="iconobusqueda ml-4" src="img/notificaciones.png" alt="">
+    <nav class="font-weight-bold navbar  navbar-expand-md navbar-light bg-light menunav texto_blanco">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+          aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          
+        </button>
+            <img class="d-none icono mr-5 d-sm-none d-md-block" src="img/herflix_modif.png" alt="">
+            <ul class="form-inline my-2 my-lg-0  d-sm-block d-md-none">
+                <a href="busqueda.html"><img class="iconobusqueda" src="img/busqueda.png" alt=""></a>
+                <img class="iconobusqueda ml-4" src="img/notificaciones.png" alt="">
+              </ul>
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item d-sm-block d-md-none">
+                  <a href="cuenta.html"><img class="icono" src="img/cuenta2.png" alt=""><p>HeroelCarp</p></a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link mr-lg-5" href="home.html">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mr-lg-5" href="verMas.html">Peliculas <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link mr-lg-5" href="verMas.html">Series <span class="sr-only">(current)</span></a>
+                </li>
+            <li class="nav-item mr-lg-5">
+              <a class="nav-link" href="#">Mi lista</a>
+            </li>
+    
           </ul>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link mr-5" href="#">Inicio <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item dropdown mr-5">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            Peliculas
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown mr-5">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            Series
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-        <li class="nav-item mr-5">
-          <a class="nav-link" href="#">Mi lista</a>
-        </li>
-
-      </ul>
-      <ul class="form-inline my-2 my-lg-0 d-none d-sm-none d-lg-block">
-        <img class="iconobusqueda" src="img/busqueda.png" alt="">
-        <img class="iconobusqueda ml-4" src="img/notificaciones.png" alt="">
-        <img class="iconobusqueda ml-4" src="img/cuenta2.png" alt="">
-      </ul>
-    </div>
-  </nav>
-  
+    
+          <ul class="form-inline my-2 my-lg-0 d-none d-sm-none d-lg-block">
+              <a href="busqueda.html"><img class="iconobusqueda" src="img/busqueda.png" alt=""></a>
+            <img class="iconobusqueda ml-4" src="img/notificaciones.png" alt="">
+            <a href="cuenta.html"><img class="iconobusqueda ml-4" src="img/cuenta2.png" alt=""></a>
+          </ul>
+        </div>
+      </nav>
+      <nav class="sidenav"></nav>
   
   <div>
     <div class="row no-gutters">
@@ -170,7 +157,7 @@
         </div>
 
     
- 
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,400i,700|Open+Sans:700">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
   </script>
@@ -180,6 +167,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
+    <script src="js/sidenav.js"></script>
     <script src="js/horizontal.js"></script>
   <script src="js/video.js"></script>
 </body>
