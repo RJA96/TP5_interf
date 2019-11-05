@@ -8,6 +8,7 @@ html, body {
 .sidenav {
   position: absolute;
   left: 0;
+  top: 0px;
   width: 0px;
   height: 100%;
   display: none;
