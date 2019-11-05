@@ -1,0 +1,83 @@
+@keyframes fondo {
+    from {
+        background-position-x: 0px;
+    }
+
+    to {
+        background-position-x: -592px;
+    }
+}
+
+.fondoback {
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    width: 592px;
+    height: 272px;
+    border: solid;
+    z-index: 0;
+    background: url(../img/parallax/back.png);
+}
+
+.fondo3 {
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    width: 592px;
+    height: 272px;
+    border: solid;
+    z-index: 1;
+    background: url(../img/parallax/3.png);
+}
+
+.fondo3animate {
+    animation: fondo 24s linear infinite;
+}
+
+.fondo2 {
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    width: 592px;
+    height: 272px;
+    border: solid;
+    z-index: 1;
+    background: url(../img/parallax/2.png);
+
+}
+
+.fondo2animate {
+    animation: fondo 20s linear infinite;
+}
+
+.fondo1 {
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    width: 592px;
+    height: 272px;
+    border: solid;
+    z-index: 1;
+    background: url(../img/parallax/1.png);
+
+}
+
+.fondo1animate {
+    animation: fondo 6s linear infinite;
+}
+
+.fondo0 {
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    width: 592px;
+    height: 272px;
+    border: solid;
+    z-index: 1;
+    background: url(../img/parallax/0.png);
+
+}
+
+.fondo0animate {
+    animation: fondo 6s linear infinite;
+}
