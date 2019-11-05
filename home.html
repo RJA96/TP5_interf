@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/carrousel.css">
   <link rel="stylesheet" href="css/home.css">
   
-  <link rel="stylesheet" href="css/inicio.css">
+     
   <title>TP5</title>
 </head>
 
@@ -74,24 +74,36 @@
   <div>
     <div class="row no-gutters">
         <div class="pelicula col-xs-12 col-lg-8" id="pelicula">
-            <img src="img/avengersplay.jpg" alt="">
+            <img src="img/avengers.jpg" alt="">
         </div>
         <div class="trailer col-xs-12 col-lg-8" id="trailer">
-            <video controls autoplay>
+            <div class="descripcion col-xs-12 col-lg-8 text-center">
+                <h1 class="">Avengers Endgame</h1>
+                <a href="www.google.com" class="btn btn-danger font-weight-bold">Ver ahora</a>
+                <a class="btn btn-danger font-weight-bold">Añadir favorito</a>
+            </div>
+            <video id="video1" controls>
                 <source src="video/trailerAvengers.mp4" type="video/mp4">
             </video>
         </div>
+        
+
         <div class="serie col-4" id="serie">
-            <img src="img/pbplay.jpeg" alt="">
+            <img src="img/peakyblinders.jpeg" alt="">
         </div>
         <div class="trailerSerie col-4" id="trailerSerie">
-            <video controls autoplay>
+            <div class="descripcion col-4 text-center">
+                <h1>Peaky Blinders</h1>
+                <a class="btn btn-danger font-weight-bold">Ver ahora</a>
+                <a class="btn btn-danger font-weight-bold">Añadir favorito</a>
+            </div>
+            <video id="video2" controls>
                 <source src="video/pbtrailer.mp4" type="video/mp4">
             </video>
         </div>
     </div>
   </div>
-
+   
 
         <div class="container-fluid">
             <h2 class="mt-2 mb-1">Estrenos recomendados para vos</h2>
