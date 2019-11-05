@@ -1,0 +1,129 @@
+.pj {
+    position: absolute;
+    background: url(../img/run.png);
+    top: -160px;
+    left: -180px;
+    width: 579px;
+    height: 763px;
+    z-index: 3;
+    transform: scale(0.12, 0.12);
+    animation: playXrun 0.5s steps(4) infinite, playYrun 1s steps(2) infinite;
+}
+
+.pjsaltando {
+    position: absolute;
+    background: url(../img/salto.png);
+    top: -230px;
+    left: -180px;
+    width: 579px;
+    height: 763px;
+    z-index: 3;
+    transform: scale(0.12, 0.12);
+    animation: playXjump 0.5s steps(5), playYjump 1s steps(1);
+}
+
+.pjmuerte {
+    position: relative;
+    background: url(../img/caida.png);
+    width: 986px;
+    top: -160px;
+    left: -360px;
+    height: 763px;
+    z-index: 3;
+    transform: scale(0.12, 0.12);
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    animation: playXfall 1s steps(2) 1, playYfall 1s steps(5);
+}
+
+.pjidle {
+    position: absolute;
+    top: -160px;
+    left: -180px;
+
+    background: url(../img/Idle.png);
+    width: 579px;
+    height: 763px;
+    z-index: 3;
+    transform: scale(0.12, 0.12);
+}
+
+@keyframes playXrun {
+    from {
+        background-position-x: 0px;
+    }
+
+    to {
+        background-position-x: -2316px;
+    }
+}
+
+@keyframes playYrun {
+    from {
+        background-position-y: 0px;
+    }
+
+    to {
+        background-position-y: -1526px;
+    }
+}
+
+@keyframes playXjump {
+    from {
+        background-position-x: 0
+    }
+
+    to {
+        background-position-x: -2895px
+    }
+}
+
+@keyframes playYjump {
+    from {
+        background-position-y: 763px;
+    }
+
+    to {
+        background-position-y: -1526px;
+    }
+}
+
+@keyframes playXfall {
+    from {
+        background-position-x: 0
+    }
+
+    to {
+        background-position-x: -1972px
+    }
+}
+
+@keyframes playYfall {
+    from {
+        background-position-y: 0
+    }
+
+    to {
+        background-position-y: -3980px
+    }
+}
+
+@keyframes playXidle {
+    from {
+        background-position-x: 0
+    }
+
+    to {
+        background-position-x: -1817px
+    }
+}
+
+@keyframes playYidle {
+    from {
+        background-position-y: 0
+    }
+
+    to {
+        background-position-y: -1385px
+    }
+}

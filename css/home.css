@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.pelicula img, .serie img{
+    width: 100%;
+    height: 500px;
+}
+
+@media (min-width: 0) and (max-width: 600px) {
+    .pelicula img, video{
+        height: 200px !important;
+        top: 0 !important;
+    }
+    .serie{
+        display: none;
+    }
+    
+  }
+
+.trailer, .trailerSerie{
+    display: none;
+}
+
+video{
+    width: 100%;
+    height: 500px;
+}
+
+.descripcion {
+    position: fixed;
+    color: #f1f1f1;
+    width: 100%;
+    
+  }
