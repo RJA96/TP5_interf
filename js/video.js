@@ -14,7 +14,6 @@ addEventListener("DOMContentLoaded", () => {
         pelicula.classList.remove("pelicula");
         pelicula.classList.add("trailer");
         trailer.classList.remove("trailer");
-        video1.play();
     })
 
     trailer.addEventListener("mouseout", e => {
@@ -29,7 +28,6 @@ addEventListener("DOMContentLoaded", () => {
         serie.classList.remove("serie");
         serie.classList.add("trailerSerie");
         trailerSerie.classList.remove("trailerSerie");
-        video2.play();
         
     })
 
