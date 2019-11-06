@@ -5,11 +5,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+        integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/ficha.css">
   <link rel="stylesheet" href="css/sidenav.css">
+  <link rel="stylesheet" href="css/estrella.css">
+  <link rel="stylesheet" href="css/notificacion.css">
   <title>TP5</title>
 </head>
 
@@ -18,27 +23,29 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
       aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
-      
+
     </button>
-        <img class="d-none icono mr-5 d-sm-none d-md-block" src="img/herflix_modif.png" alt="">
-        <ul class="form-inline my-2 my-lg-0  d-sm-block d-md-none">
-            <a href="busqueda.html"><img class="iconobusqueda" src="img/busqueda.png" alt=""></a>
-            <img class="iconobusqueda ml-4" src="img/notificaciones.png" alt="">
-          </ul>
+    <img class="d-none icono mr-5 d-sm-none d-md-block" src="img/herflix_modif.png" alt="">
+    <ul class="form-inline my-2 my-lg-0  d-sm-block d-md-none">
+      <a href="busqueda.html"><img class="iconobusqueda" src="img/busqueda.png" alt=""></a>
+      <img class="iconobusqueda ml-4 notif" src="img/notificaciones.png"alt="">
+    </ul>
     <div class="collapse navbar-collapse" id="navbarContent">
       <ul class="navbar-nav mr-auto">
-          <li class="nav-item d-sm-block d-md-none">
-              <a href="cuenta.html"><img class="icono" src="img/cuenta2.png" alt=""><p>HeroelCarp</p></a>
-          </li>
+        <li class="nav-item d-sm-block d-md-none">
+          <a href="cuenta.html"><img class="icono" src="img/cuenta2.png" alt="">
+            <p>HeroelCarp</p>
+          </a>
+        </li>
         <li class="nav-item">
           <a class="nav-link mr-lg-5" href="home.html">Inicio <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-            <a class="nav-link mr-lg-5" href="verMas.html">Peliculas <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link mr-lg-5" href="verMas.html">Series <span class="sr-only">(current)</span></a>
-            </li>
+          <a class="nav-link mr-lg-5" href="verMas.html">Peliculas <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mr-lg-5" href="verMas.html">Series <span class="sr-only">(current)</span></a>
+        </li>
         <li class="nav-item mr-lg-5">
           <a class="nav-link" href="#">Mi lista</a>
         </li>
@@ -46,26 +53,33 @@
       </ul>
 
       <ul class="form-inline my-2 my-lg-0 d-none d-sm-none d-lg-block">
-          <a href="busqueda.html"><img class="iconobusqueda" src="img/busqueda.png" alt=""></a>
-        <img class="iconobusqueda ml-4" src="img/notificaciones.png" alt="">
+        <a href="busqueda.html"><img class="iconobusqueda" src="img/busqueda.png" alt=""></a>
+        <img class="iconobusqueda ml-4 notif" src="img/notificaciones.png" alt="">
         <a href="cuenta.html"><img class="iconobusqueda ml-4" src="img/cuenta2.png" alt=""></a>
       </ul>
     </div>
   </nav>
   <nav class="sidenav"></nav>
+  <div class="notification">
+	    <span class="icon">
+	        <i class=""></i>
+	    </span>
+	    <span class="text"></span>
+	    <span class="close"><i class="fa fa-close">X</i></span>
+	</div>
   <div class="container mt-5">
     <div class="row">
-        <div class="col-lg-6">
-            <img class="poster" src="img/johnw.jpg" alt="">
-          </div>
+      <div class="col-lg-6">
+        <img class="poster" src="img/johnw.jpg" alt="">
+      </div>
       <div class="col-lg-6">
         <p>John Wick regresa de nuevo pero con una recompensa sobre su cabeza que persigue unos mercenarios. Tras
           asesinar a uno de los miembros de su gremio, Wick es expulsado y se convierte en el foco de atención de todos
           los sicarios de la organización.</p>
-          <a href="" class="btn btn-danger font-weight-bold">Ver Ahora</a>
-          <a href="" class="btn btn-danger font-weight-bold ml-5">Añadir Favorito</a>
+        <a href="" class="btn btn-danger font-weight-bold">Ver Ahora</a>
+        <a href="" class="btn btn-danger font-weight-bold ml-5">Añadir Favorito</a>
       </div>
-      
+
     </div>
   </div>
   <div class="container">
@@ -105,14 +119,16 @@
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
           <div class="form-group">
-              <div class="d-inline-block">
-                  <img class="icono" src="img/estrella-no.png" alt="">
-                  <img class="icono" src="img/estrella-no.png" alt="">
-                  <img class="icono" src="img/estrella-no.png" alt="">
-                  <img class="icono" src="img/estrella-no.png" alt="">
-                  <img class="icono" src="img/estrella-no.png" alt="">
-                  <p class="">Promedio entre 129 opiniones</p>
+            <div class="d-inline-block">
+                <div class="ec-stars-wrapper">
+                    <a href="#" data-value="1" title="Votar con 1 estrellas">&#9733;</a>
+                    <a href="#" data-value="2" title="Votar con 2 estrellas">&#9733;</a>
+                    <a href="#" data-value="3" title="Votar con 3 estrellas">&#9733;</a>
+                    <a href="#" data-value="4" title="Votar con 4 estrellas">&#9733;</a>
+                    <a href="#" data-value="5" title="Votar con 5 estrellas">&#9733;</a>
                 </div>
+
+            </div>
           </div>
           <button type="submit" class="btn btn-danger">Enviar Comentario</button>
         </form>
@@ -125,10 +141,12 @@
         <img class="icono" src="img/cuenta2.png" alt="">
       </div>
       <div class="col-11 mt-2">
-       <p>HeroelCarp</p>
+        <p>HeroelCarp</p>
       </div>
       <div class="col-12">
-        <p>This had some really funny moments but it also had some oddly flat spots and bad dialogue as well. enjoyed it, laughed out loud several times. I'd give this a 7-7.5 overall. don't find Will Forte funny so that affected my judgement some.</p>
+        <p>This had some really funny moments but it also had some oddly flat spots and bad dialogue as well. enjoyed
+          it, laughed out loud several times. I'd give this a 7-7.5 overall. don't find Will Forte funny so that
+          affected my judgement some.</p>
       </div>
     </div>
   </div>
@@ -138,10 +156,12 @@
         <img class="icono" src="img/cuenta2.png" alt="">
       </div>
       <div class="col-11 mt-2">
-       <p>HeroelCarp</p>
+        <p>HeroelCarp</p>
       </div>
       <div class="col-12">
-        <p>This had some really funny moments but it also had some oddly flat spots and bad dialogue as well. enjoyed it, laughed out loud several times. I'd give this a 7-7.5 overall. don't find Will Forte funny so that affected my judgement some.</p>
+        <p>This had some really funny moments but it also had some oddly flat spots and bad dialogue as well. enjoyed
+          it, laughed out loud several times. I'd give this a 7-7.5 overall. don't find Will Forte funny so that
+          affected my judgement some.</p>
       </div>
     </div>
   </div>
@@ -151,14 +171,16 @@
         <img class="icono" src="img/cuenta2.png" alt="">
       </div>
       <div class="col-11 mt-2">
-       <p>HeroelCarp</p>
+        <p>HeroelCarp</p>
       </div>
       <div class="col-12">
-        <p>This had some really funny moments but it also had some oddly flat spots and bad dialogue as well. enjoyed it, laughed out loud several times. I'd give this a 7-7.5 overall. don't find Will Forte funny so that affected my judgement some.</p>
+        <p>This had some really funny moments but it also had some oddly flat spots and bad dialogue as well. enjoyed
+          it, laughed out loud several times. I'd give this a 7-7.5 overall. don't find Will Forte funny so that
+          affected my judgement some.</p>
       </div>
     </div>
   </div>
-  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,400i,700|Open+Sans:700">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
   </script>
@@ -168,6 +190,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
+  <script src="js/notificacion.js"></script>
   <script src="js/sidenav.js"></script>
 </body>
 
