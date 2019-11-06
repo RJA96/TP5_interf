@@ -13,5 +13,5 @@ jQuery(function ($) {
 });
 
 $(document).ready(function() {
-    $('#box').hScroll(1350); // You can pass (optionally) scrolling amount
+    $('.box').hScroll(1350); // You can pass (optionally) scrolling amount
 });
