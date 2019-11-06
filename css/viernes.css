@@ -1,3 +1,8 @@
+body{
+    color: white;
+    background-color: black;
+}
+
 .imgDownload img{
     width: 50%;
     height: 150px;
@@ -8,6 +13,10 @@
     height: 100px;
 }
 
+header{
+    background: url('img/fondo.jpg');
+}
+
 @media (min-width: 0) and (max-width: 600px) {
     .viernesTitulo h1{
         font-size: 20px;
@@ -15,7 +24,7 @@
     .imgDownload img{
         float: left;
         width: 100%;
-        height: 85px;
+        height: 95px;
     }
     
     .img20off img{
