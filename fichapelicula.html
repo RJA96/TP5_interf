@@ -5,12 +5,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+        integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/ficha.css">
   <link rel="stylesheet" href="css/sidenav.css">
   <link rel="stylesheet" href="css/estrella.css">
+  <link rel="stylesheet" href="css/notificacion.css">
   <title>TP5</title>
 </head>
 
@@ -24,7 +28,7 @@
     <img class="d-none icono mr-5 d-sm-none d-md-block" src="img/herflix_modif.png" alt="">
     <ul class="form-inline my-2 my-lg-0  d-sm-block d-md-none">
       <a href="busqueda.html"><img class="iconobusqueda" src="img/busqueda.png" alt=""></a>
-      <img class="iconobusqueda ml-4" src="img/notificaciones.png" alt="">
+      <img class="iconobusqueda ml-4 notif" src="img/notificaciones.png"alt="">
     </ul>
     <div class="collapse navbar-collapse" id="navbarContent">
       <ul class="navbar-nav mr-auto">
@@ -50,12 +54,19 @@
 
       <ul class="form-inline my-2 my-lg-0 d-none d-sm-none d-lg-block">
         <a href="busqueda.html"><img class="iconobusqueda" src="img/busqueda.png" alt=""></a>
-        <img class="iconobusqueda ml-4" src="img/notificaciones.png" alt="">
+        <img class="iconobusqueda ml-4 notif" src="img/notificaciones.png" alt="">
         <a href="cuenta.html"><img class="iconobusqueda ml-4" src="img/cuenta2.png" alt=""></a>
       </ul>
     </div>
   </nav>
   <nav class="sidenav"></nav>
+  <div class="notification">
+	    <span class="icon">
+	        <i class=""></i>
+	    </span>
+	    <span class="text"></span>
+	    <span class="close"><i class="fa fa-close">X</i></span>
+	</div>
   <div class="container mt-5">
     <div class="row">
       <div class="col-lg-6">
@@ -179,6 +190,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
+  <script src="js/notificacion.js"></script>
   <script src="js/sidenav.js"></script>
 </body>
 
