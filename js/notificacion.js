@@ -86,3 +86,7 @@ function init() {
     
 
 }
+
+document.querySelectorAll('.clickeable').forEach(e => e.addEventListener('click', ()=>{
+    window.location.href = '/fichapelicula.html';
+}));
